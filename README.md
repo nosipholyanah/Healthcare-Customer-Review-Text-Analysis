@@ -76,15 +76,13 @@ Tuning the cut-offs on the training data improved negative recall considerably, 
 
 ## Repository Contents
 
-- `notebooks/healthcare_review_text_analysis.ipynb` – the analysis and modelling.
-- `figures/` – charts used in this README.
-- `requirements.txt` – Python package dependencies.
+- `healthcare_review_text_analysis.ipynb` – the analysis and modelling.
 
 ## How to Run
 
 1. Download the Yelp Open Dataset from the link above and accept its terms.
 2. Place `yelp_academic_dataset_business.json` and `yelp_academic_dataset_review.json` in the same folder as the notebook.
-3. Install the dependencies with `pip install -r requirements.txt`.
+3. Install the libraries with `pip install pandas numpy matplotlib seaborn nltk scikit-learn vaderSentiment textblob wordcloud`.
 4. Open the notebook and run all cells from top to bottom. The first run reads the large review file in chunks and may take a while. A random seed of 42 is used for reproducibility.
 
 ## Limitations
