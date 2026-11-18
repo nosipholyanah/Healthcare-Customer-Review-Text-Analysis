@@ -54,9 +54,6 @@ Overall, 63.23% of reviews were classified as negative, 27.33% as positive and 9
 
 Tuning the cut-offs on the training data improved negative recall considerably, at the cost of lower negative precision for TextBlob (0.98 to 0.84) and almost no neutral predictions. Tuned TextBlob performed best and was used for the sentiment-by-topic analysis.
 
-![Share of reviews by topic](figures/topic_share.png)
-![Where customers are least happy](figures/sentiment_by_topic.png)
-
 ## Skills Demonstrated
 
 - Text preprocessing with NLTK and Scikit-learn
