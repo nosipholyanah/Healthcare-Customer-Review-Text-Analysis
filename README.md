@@ -77,6 +77,7 @@ Tuning the cut-offs on the training data improved negative recall considerably, 
 ## Repository Contents
 
 - `healthcare_review_text_analysis.ipynb` – the analysis and modelling.
+- `Healthcare_Review_Analysis_Report.pdf` – the project report.
 
 ## How to Run
 
